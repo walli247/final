@@ -1,0 +1,321 @@
+body{
+	background-color: #dfcdba;
+}
+
+/*nav bar*/
+.nav{
+	background-color: #E45510;
+	height: 125px;
+	width: 5000px;
+	margin-left: -1em;
+	margin-top: -1em;
+	position: fixed;
+	z-index: 3;
+}
+
+.buttons{
+	margin-top: 1em;
+	margin-left: 26em;
+	height: 125px;
+	position: fixed;
+	z-index: 3;
+}
+
+.aboutText{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	font-family: font-family: ff-tisa-web-pro, serif;;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #E45510;
+	position: fixed;
+	z-index: 5;
+}
+
+.aboutPage{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-image: url(../img/pup.jpg);
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 4;
+}
+
+.aboutPage:hover{
+	opacity: 1;
+	animation: navBox 0.5s linear forwards;
+}
+
+.mapText{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	font-family: font-family: ff-tisa-web-pro, serif;;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #E45510;
+	position: fixed;
+	z-index: 5;
+}
+
+.mapPage{
+	height: 100px;
+	width: 100px;
+	margin-left: 10em;
+	border-radius: 50%;
+	background-image: url(../img/trees.jpg);
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 4;
+}
+
+.mapPage:hover{
+	opacity: 1;
+	animation: navBox 0.5s linear forwards;
+}
+
+.lawPage{
+	height: 100px;
+	width: 100px;
+	margin-left: 20em;
+	border-radius: 50%;
+	background-image: url(../img/hunter.jpg);
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 4;
+}
+
+.lawText{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	font-family: font-family: ff-tisa-web-pro, serif;;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #E45510;
+	position: fixed;
+	z-index: 5;
+}
+
+.lawPage:hover{
+	opacity: 1;
+	animation: navBox 0.5s linear forwards;
+}
+
+.safetyPage{
+	height: 100px;
+	width: 100px;
+	margin-left: 30em;
+	border-radius: 50%;
+	background-image: url(../img/white.jpg);
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 4;
+}
+
+.safetyText{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	font-family: font-family: ff-tisa-web-pro, serif;;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #E45510;
+	position: fixed;
+	z-index: 5;
+}
+
+.safetyPage:hover{
+	opacity: 1;
+	animation: navBox 0.5s linear forwards;
+}
+
+@keyframes navBox{
+	0%{border-radius: 50%}
+	100%{border-radius: 0}
+}
+/*end nav bar*/
+
+.container{
+	position: relative;
+	text-align: center;
+}
+
+.splash{
+	height: 732px;
+	width: 1440px;
+	margin-top: -1em;
+	margin-left: -1em;
+	margin-right: -1em;
+	opacity: 0.5;
+	z-index: -1;
+}
+
+.arrow{
+	height: 35px;
+	width: 35px;
+	border: solid white;
+  	border-width: 0 6px 6px 0;
+  	display: inline-block;
+  	padding: 6px;
+  	transform: rotate(45deg);
+  	z-index: 2;
+  	position: absolute;
+  	margin-top: -200px;
+}
+
+
+.title{
+	font-family: acier-bat-noir, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #E45510;
+	font-size: 120px;
+	z-index: 1;
+	position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pup{
+	height: 50%;
+	width: 50%;
+	margin-left: 2em;
+	margin-top: 2em;
+	float: left;
+}
+
+.trees{
+	height: 50%;
+	width: 50%;
+	margin-right: 2em;
+	margin-top: 3em;
+	float: right;
+}
+
+.description1{
+	height: 300px;
+	width: 400px;
+	float: right;
+	margin-right: 6em;
+	text-align: left;
+	line-height: 36px;
+	font-family: ff-tisa-web-pro, serif;
+	font-size: 32px;
+	color: white;
+}
+
+.description2{
+	height: 300px;
+	width: 400px;
+	float: left;
+	margin-left: 6em;
+	text-align: right;
+	line-height: 36px;
+	font-family: ff-tisa-web-pro, serif;
+	font-size: 32px;
+	color: white;
+}
+
+.about{
+	height: 50px;
+	width: 400px;
+	float: right;
+	margin-bottom: 0.5em;
+	margin-right: 4em;
+	text-align: left;
+	color: #E45510;
+	font-family: font-family: ff-tisa-web-pro, serif;
+	font-size: 46px;
+}
+
+.map{
+	height: 50px;
+	width: 400px;
+	float: left;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	margin-left: 4em;
+	text-align: right;
+	color: #E45510;
+	font-family: font-family: ff-tisa-web-pro, serif;
+	font-size: 46px;
+}
+
+.square1{
+	height: 212px;
+	width: 212px;
+	background-color: #E45510;
+	float: left;
+	margin-top: 4em;
+	margin-left: 18em;
+}
+
+.square2{
+	height: 212px;
+	width: 212px;
+	background-color: #E45510;
+	float: right;
+	margin-top: 2.5em;
+	margin-right: 20em;
+
+}
+
+.navTitle{
+	font-family: font-family: ff-tisa-web-pro, serif;
+	font-size: 46px;
+	color: #E45510;
+	position: absolute;
+	z-index: 3;
+	transform: translate(50px, 50px);
+}
+
+#square:hover{
+	animation: square 1s linear forwards;
+}
+
+#icon{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	z-index: 4;
+}
+
+#icon:hover{
+	animation: opacity 1s linear forwards;
+	
+}
+
+/* keyframes */
+@keyframes opacity{
+	0%{opacity: 1}
+	100%{opacity: 0}
+}
+
+@keyframes square{
+	0%{background-color: #E45510}
+	100%{background-color: white}
+}

@@ -1,0 +1,185 @@
+body{
+	background-color: #dfcdba;
+}
+
+/*nav bar*/
+.nav{
+	background-color: #E45510;
+	height: 125px;
+	width: 5000px;
+	margin-left: -1em;
+	margin-top: -1em;
+	position: fixed;
+	z-index: 3;
+}
+
+.buttons{
+	margin-top: 1em;
+	margin-left: 26em;
+	height: 125px;
+	position: fixed;
+	z-index: 3;
+}
+
+.aboutText{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	font-family: font-family: ff-tisa-web-pro, serif;;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #E45510;
+	position: fixed;
+	z-index: 5;
+}
+
+.aboutPage{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-image: url(../img/pup.jpg);
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 4;
+}
+
+.aboutPage:hover{
+	opacity: 1;
+	animation: navBox 0.5s linear forwards;
+}
+
+.mapText{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	font-family: font-family: ff-tisa-web-pro, serif;;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #E45510;
+	position: fixed;
+	z-index: 5;
+}
+
+.mapPage{
+	height: 100px;
+	width: 100px;
+	margin-left: 10em;
+	border-radius: 50%;
+	background-image: url(../img/trees.jpg);
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 4;
+}
+
+.mapPage:hover{
+	opacity: 1;
+	animation: navBox 0.5s linear forwards;
+}
+
+.lawPage{
+	height: 100px;
+	width: 100px;
+	margin-left: 20em;
+	border-radius: 50%;
+	background-image: url(../img/hunter.jpg);
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 4;
+}
+
+.lawText{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	font-family: font-family: ff-tisa-web-pro, serif;;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #E45510;
+	position: fixed;
+	z-index: 5;
+}
+
+.lawPage:hover{
+	opacity: 1;
+	animation: navBox 0.5s linear forwards;
+}
+
+.safetyPage{
+	height: 100px;
+	width: 100px;
+	margin-left: 30em;
+	border-radius: 50%;
+	background-image: url(../img/white.jpg);
+	opacity: .5;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: fixed;
+	z-index: 4;
+}
+
+.safetyText{
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 30px;
+	font-family: font-family: ff-tisa-web-pro, serif;;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	color: #E45510;
+	position: fixed;
+	z-index: 5;
+}
+
+.safetyPage:hover{
+	opacity: 1;
+	animation: navBox 0.5s linear forwards;
+}
+
+@keyframes navBox{
+	0%{border-radius: 50%}
+	100%{border-radius: 0}
+}
+/*end nav bar*/
+
+h1{
+	text-align: center;
+	color: #E45510;
+	font-family: font-family: ff-tisa-web-pro, serif;
+	font-size: 46px;
+}
+
+img{
+	height: 50%;
+	width: 50%;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
+p{
+	text-align: left;
+	line-height: 36px;
+	font-family: ff-tisa-web-pro, serif;
+	font-size: 32px;
+	color: white;
+	margin-right: 2em;
+	margin-left: 2em
+}
